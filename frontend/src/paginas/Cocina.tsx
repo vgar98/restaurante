@@ -2,7 +2,7 @@ import { useCallback, useEffect, useMemo, useState } from 'react';
 import { api } from '../api';
 import Estructura from '../Estructura';
 import type { Pedido, PedidoItem } from '../tipos';
-import { usarAvisos } from '../usarAvisos';
+//import { usarAvisos } from '../usarAvisos';
 
 const tiempo = (fecha: string) => new Date(fecha).getTime();
 
